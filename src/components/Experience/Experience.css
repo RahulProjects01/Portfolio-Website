@@ -1,0 +1,99 @@
+.Experience-div {
+    background-color: rgb(9, 23, 23);
+    color: white;
+    padding: 30px 10px;
+    border-bottom: 1px solid black;
+}
+
+.ex-name {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Experience-div center {
+    margin: 20px 0px;
+}
+
+.ex-div1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Updated to a single column for small screens */
+}
+
+.ex-logo {
+    height: auto;
+    /* Adjusted to maintain aspect ratio on small screens */
+    width: 100%;
+}
+
+.ex-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Updated to maintain aspect ratio */
+}
+
+.ex-regex {
+    border: none;
+    padding: 30px;
+    margin: 2% 5%;
+    /* Adjusted margins for smaller screens */
+    box-shadow: 1px 1px 3px 2px rgb(89, 139, 188);
+}
+
+.Experience-div ul {
+    flex-wrap: wrap;
+    /* Allow the list items to wrap on smaller screens */
+    /* Center the list items */
+    display: flex;
+}
+
+.Experience-div ul li {
+    margin: 5px;
+    list-style: none;
+}
+
+.meta-block-p {
+    padding: 10px;
+    text-align: justify;
+    font-family: sans-serif;
+
+    font-size: 0.9rem !important;
+}
+
+.ex-content h1 {
+    margin: 2px;
+    font-size: 1.2rem;
+}
+
+.ex-content {
+    padding: 10px;
+}
+
+.ex-content h4,
+h3 {
+    margin: 5px 0px;
+    font-size: 0.8rem;
+}
+
+.ex-content h4 {
+    color: rgb(146, 140, 140);
+}
+
+.Experience-div h5 {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.ex-regex p {
+    font-size: 0.8rem;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .ex-div1 {
+        grid-template-columns: 0.6fr 5fr;
+    }
+}

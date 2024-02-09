@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Projects-div {
+    background-color: rgb(9, 23, 23);
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.projects-prent {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Updated to a single column for small screens */
+    padding: 0px 7%;
+}
+
+.projects-child1 {
+    border: 2px solid black;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: rgb(21, 54, 54);
+    margin: 10px;
+}
+
+.projects-child1 p {
+    word-spacing: 1px;
+    text-align: justify;
+
+}
+
+.projects-child1 img {
+    width: 100%;
+    height: auto;
+    /* Adjusted to maintain aspect ratio on small screens */
+}
+
+.Projects-div h1 {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Projects-div center {
+    margin: 30px;
+}
+
+.projects-child1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow the list items to wrap on smaller screens */
+    justify-content: center;
+    /* Center the list items */
+}
+
+.projects-child1 ul li {
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(199, 48, 222);
+    color: rgb(0, 0, 0);
+    list-style: none;
+    border-radius: 3%;
+    font-family: sans-serif;
+
+}
+
+.prag {
+    color: rgb(211, 203, 203);
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .projects-prent {
+        grid-template-columns: 1fr 1fr 1fr;
+        /* Three columns for larger screens */
+    }
+}

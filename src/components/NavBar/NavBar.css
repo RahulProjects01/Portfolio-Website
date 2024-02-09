@@ -1,0 +1,46 @@
+.kkr {
+    background-color: rgb(18, 54, 54);
+    box-shadow: 1px 1px 8px rgb(0, 255, 255);
+
+}
+
+.navbar-page {
+    position: sticky !important;
+    top: 0%;
+}
+
+.git-btn {
+    background-color: rgb(194, 11, 11);
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 3%;
+}
+
+.git-btn:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.link-bar {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+
+}
+
+.portfolio {
+    font-size: 1.8rem !important;
+    font-family: sans-serif;
+
+}
+
+.rrr:hover {
+    color: white;
+
+}
+
+.a:hover {
+
+    color: rgb(251, 251, 251) !important;
+}

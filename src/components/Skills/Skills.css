@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.skills-div {
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(11, 24, 28);
+    color: rgb(174, 162, 162);
+}
+
+.skills-div h1 {
+    color: white;
+    padding: 10px;
+}
+
+.skills-div-first {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills-first-child1 {
+    border: 2px solid rgb(3, 3, 116);
+    box-shadow: 3px 3px 3px 3px black;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 3%;
+    background-color: rgb(9, 23, 23);
+    width: 45%;
+    /* Adjust the width as needed */
+}
+
+.skills-first-child1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.skills-first-child1 ul {
+    margin: 10px;
+}
+
+.skills-first-child1 li {
+    list-style: none;
+    border: 1px solid black;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 0%;
+    margin: 10px;
+}
+
+.skills-last-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .skills-first-child1 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Education-div h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.ed-in h2 {
+    font-size: 1.4rem;
+}
+
+.Education-div {
+    background-color: rgb(9, 23, 23);
+    color: rgb(217, 213, 213);
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.Education-div center {
+    margin: 20px 0px;
+}
+
+.ed-parent {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 1% 5%;
+    /* Adjusted margins for smaller screens */
+    box-shadow: 3px 3px 3px 3px rgb(38, 97, 87);
+}
+
+.ed-in h3 {
+    font-size: 0.8rem;
+}
+
+.ed-in span {
+    color: rgb(114, 112, 112);
+}
+
+.ed-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Updated to a single column for small screens */
+}
+
+.ed-logo {
+    /* No changes in this section */
+}
+
+.ed-logo img {
+    width: 100%;
+    height: auto;
+    /* Adjusted to maintain aspect ratio on small screens */
+}
+
+.ed-in {
+    padding: 10px;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .ed-div {
+        grid-template-columns: 1fr 9fr;
+    }
+}
