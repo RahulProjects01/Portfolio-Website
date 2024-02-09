@@ -7,7 +7,7 @@ const MyHomePage = () => {
 
         <div className='home-div' id='home'>
             <div className='home-div-first'>
-                <h1>Hi There, I am Mohit Sharma</h1>
+                <h1>Hi There, I am Rahul Sharma</h1>
                 <h2>I am <b>Java full-stack developer</b></h2>
                 <p>Full stack software developer with experience in front-end and back-end development, experienced in leading teams.front-end technologies such as HTML, CSS, Bootstrap, JavaScript, and React.js, along with expertise in Java programming and database management using SQL and MYSQL. I am also familiar with version control systems like Git & GitHub and has practical knowledge of the Software Development Life Cycle (SDLC). </p>
 
