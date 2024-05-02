@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div className='Experience-div' id='experience'>
       <h3 className='ex-name'>Experience</h3>
-      <center>My work experience as a software anginear and working an <br></br> different components and projects.</center>
+      <center>My work experience as a Software Engineer and working an <br></br> different components and projects.</center>
 
       <div className='ex-regex'>
         <div className='ex-div1'>
