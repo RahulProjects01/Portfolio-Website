@@ -16,7 +16,7 @@ const Experience = () => {
           <div className='ex-content'>
             <h1>Java full-stack developer</h1>
             <h3>Jaipur</h3>
-            <h4>Jun 2023 - Present</h4>
+            <h4>Jun 2023 - Apr 2024</h4>
           </div>
         </div>
         <p className='meta-block-p'>Ambitious Java Full Stack Developer with hands-on experience as a Trainee & Intern at REGex Software. Proficient in HTML, CSS, Bootstrap, JavaScript, React.js, and Java. Enthusiastic about contributing to dynamic projects, adept at applying OOP principles, and showcasing practical problem-solving skills. Eager to leverage technical expertise and internship experience for an entry-level position in Java Full Stack Development.</p>
