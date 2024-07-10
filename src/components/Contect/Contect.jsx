@@ -8,7 +8,7 @@ const Contect = () => {
     <div className='Contect-page' id='contact'>
       <h1>Let's connect</h1>
 
-      <form action="#Contect-page" method="post">
+      <form action="dc9dfe8b-b452-4375-b532-1871c8a0166f" method="post">
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" placeholder='Enter Name' required />
 
