@@ -15,7 +15,7 @@ const MyHomePage = () => {
             </div>
             <div className='home-div-secound'>
 
-                <img src={logo} />
+                <img className="Profile-img" src={logo} />
 
             </div>
         </div>
