@@ -1,6 +1,6 @@
 import React from 'react'
 import './MyHomePage.css'
-import logo from "../../assets/images/WhatsApp%20Image%202024-07-06%20at%2012.51.38%20PM.jpeg"
+import logo from "../../assets/images/Profile.jpg"
 
 const MyHomePage = () => {
     return (
