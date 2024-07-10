@@ -8,7 +8,8 @@ const Contect = () => {
     <div className='Contect-page' id='contact'>
       <h1>Let's connect</h1>
 
-      <form action="dc9dfe8b-b452-4375-b532-1871c8a0166f" method="post">
+      <form action="https://web3forms.com/submit" method="POST">
+        <label type="hidden" name="access_key"  value="dc9dfe8b-b452-4375-b532-1871c8a0166f">
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" placeholder='Enter Name' required />
 
