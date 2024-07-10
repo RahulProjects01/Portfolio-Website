@@ -89,10 +89,10 @@ p {
 }
 
 /* Image styles */
-img {
+.home-div-secound img {
     max-width: 100%;
     height: auto;
-    padding:70px;
+    padding:20px;
   
 }
 
