@@ -44,6 +44,9 @@ body {
     padding: 20px;
 }
 
+.home-div-first img{
+      border-radius:23.34rem;
+
 /* Header styles */
 h1 {
     font-size: 2.5rem;
@@ -92,7 +95,7 @@ img {
     max-width: 100%;
     height: auto;
     padding:70px;
-    border-radius:23.34rem;
+  
 }
 
 /* Responsive styles */
