@@ -5,7 +5,7 @@ import './Contect.css';
 
 const Contect = () => {
   return (
-    <div className='Contect-page' id='contact'>
+    <div className='dc9dfe8b-b452-4375-b532-1871c8a0166f' method="POST" id='contact'>
       <h1>Let's connect</h1>
 
       <form action="#Contect-page" method="post">
